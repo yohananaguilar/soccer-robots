@@ -5,7 +5,7 @@
 
 //--------------------------------------------------------------------
 
-//Definição das variáveis, seguida da sua porata lógica. 
+//Definição das variáveis, seguida da sua porta lógica. 
 #define BUZZER_PIN 13
 
 //Definição dos botões;
