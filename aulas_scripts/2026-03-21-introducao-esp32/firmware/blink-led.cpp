@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////////
+// Projeto: Introducao a microcontroladores
+// Cursos: Engenharia e Tecnologia
+// Programa 01 - Blink LED
+// Data: 21/03/2026
+// Time: Emerald Strikers
+//////////////////////////////////////////////////////////////////////////////
+
+void setup()
+{
+  pinMode(13, OUTPUT); // Definicao do pino 13 como saida
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH); // Ativa a saida digital 13
+  delay(1000); // Temporizacao de 1 s
+
+  digitalWrite(13, LOW); // Desativa a saida digital 13
+  delay(1000); // Temporizacao de 1 s
+}
+
+/////////////////////// Anotações //////////////////////////
+//
+//
+//
+//
+//
+/////////////////////////////////////////////////////////////
