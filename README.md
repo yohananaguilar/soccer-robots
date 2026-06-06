@@ -90,13 +90,6 @@ Este projeto saiu do papel graças à união de muita dedicação, técnica e tr
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/rodrebas">
-        <img src="https://github.com/rodrebas.png?size=120" width="96" alt="Rodrigo (Rodrebas)"><br>
-        <sub><b>Rodrigo (Rodrebas)</b></sub><br>
-        <sub>@rodrebas</sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/Augusto-Silva-dev">
         <img src="https://github.com/Augusto-Silva-dev.png?size=120" width="96" alt="Augusto Silva"><br>
         <sub><b>Augusto Silva</b></sub><br>
