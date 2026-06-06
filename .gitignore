@@ -19,6 +19,9 @@ dist/
 out/
 .pio/
 
+# Espelhos locais de materiais externos
+docs/materiais/drive-*/
+
 # Backups e locks comuns de CAD/EAGLE
 *.bak
 *.lck
