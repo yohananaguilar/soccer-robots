@@ -1,1 +1,26 @@
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Arquivos temporarios de editor e sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Artefatos locais de build e toolchains embarcadas
+build/
+dist/
+out/
+.pio/
+
+# Backups e locks comuns de CAD/EAGLE
+*.bak
+*.lck
+*.b#*
+*.s#*
