@@ -1,16 +1,51 @@
 # soccer-robots
 
-Repositório central da extensão universitária de robótica, dedicado ao estudo de microcontroladores e ao desenvolvimento de um time de robôs de futebol autônomos. A branch main reúne a documentação principal do projeto, os módulos físicos e lógicos da frota tática e os materiais didáticos utilizados nas aulas.
+Repositório público da extensão universitária de robótica da UNA voltado ao desenvolvimento do Emerald Strikers FC, um time de pequenos robôs móveis que jogam futebol e combinam firmware embarcado, eletrônica, navegação, design de placas e identidade sonora.
 
-## Visão geral
+O projeto une formação técnica e execução prática. As trilhas de aula estruturam o aprendizado em sistemas embarcados, enquanto a frota de robôs consolida esse conhecimento em um produto acadêmico real, documentado e visível para quem vem de fora.
 
-O repositório foi consolidado para manter, em um único ponto de entrada:
+## O que é o Emerald Strikers FC
 
-- os firmwares e diagramas de placa dos robôs da equipe;
-- os roteiros práticos das aulas com exemplos de firmware e hardware;
-- a documentação viva usada para orientar manutenção, estudo e evolução do projeto.
+O Emerald Strikers FC é a identidade do time desenvolvido dentro do projeto prático de robótica móvel. A ideia central é criar três robôs, uma missão e uma linguagem própria de comportamento em campo.
 
-Essa estrutura reduz ambiguidade entre software, hardware e material pedagógico, preservando a rastreabilidade das entregas técnicas do grupo.
+Os materiais-base do projeto deixam claro que a proposta trabalha sobre três pilares:
+
+- hardware, software e mecânica como partes do mesmo sistema;
+- formação progressiva em eletrônica e programação embarcada;
+- construção de robôs mais expressivos, imersivos e tecnicamente consistentes.
+
+## Por que este repositório importa
+
+Para estudantes, o repositório funciona como trilha prática de aprendizado. Para recrutadores, docentes e pessoas interessadas em tecnologia, ele mostra um recorte concreto de:
+
+- firmware em C++ para microcontroladores;
+- integração entre código, PCB e comportamento físico;
+- documentação técnica legível e versionada;
+- prototipação de robôs móveis com foco em navegação, atuação e resposta sonora;
+- evolução de um projeto acadêmico para uma vitrine técnica pública.
+
+## Diferenciais do projeto
+
+### Robôs com papel tático e persona
+
+Cada robô foi pensado como um agente de campo com função específica, traços de personalidade e comportamento coerente com sua identidade.
+
+### Expressões sonoras embarcadas
+
+O material interno do Emerald Strikers FC mostra que os sons foram escolhidos para dar personalidade aos robôs. A apresentação do projeto também registra o uso de inteligência artificial como apoio à criação de sons únicos, alinhados às características de cada personagem.
+
+### Integração entre movimento e som
+
+A lógica descrita para o projeto organiza movimento primeiro e expressões sonoras depois. Isso facilita sincronização, clareza de comportamento e testes de bancada.
+
+## Competências técnicas exploradas
+
+- programação embarcada com C++;
+- uso de pinMode, digitalWrite, tone, noTone e comunicação serial;
+- controle de motores e direção com ponte H;
+- leitura e construção de esquemas de hardware em EAGLE;
+- modularização de funções para movimento, teste e interação;
+- documentação técnica orientada a ensino, manutenção e evolução incremental.
 
 ## Arquitetura do repositório
 
@@ -25,127 +60,75 @@ soccer-robots/
 |   |-- 2026-05-23-comunicacao-serial/
 |   `-- 2026-05-23-configuracao-comunicacao-serial/
 |-- docs/
-|   `-- materiais/
+|   |-- materiais/
+|   `-- visao-do-projeto.md
 `-- robos/
-    |-- Knuckles - goleiro/
-    |-- Shadow - atacante/
-    `-- Sonic - zagueiro/
+        |-- Knuckles - goleiro/
+        |-- Shadow - atacante/
+        `-- Sonic - zagueiro/
 ```
 
-## Frota de robôs
+## Frota tática
 
-Cada robô é tratado como um módulo coeso e independente, reunindo o firmware em C++ e o diagrama da placa correspondente.
+Cada robô concentra firmware e hardware no mesmo módulo, preservando a ligação entre lógica embarcada e desenho físico da placa.
 
-| Robô | Papel tático | Firmware | Placa |
+| Robô | Papel em campo | Persona | Arquivos principais |
 | --- | --- | --- | --- |
-| Knuckles | Goleiro | [knuckles.cpp](robos/Knuckles%20-%20goleiro/knuckles.cpp) | [knuckles.brd](robos/Knuckles%20-%20goleiro/knuckles.brd) |
-| Shadow | Atacante | [shadow.cpp](robos/Shadow%20-%20atacante/shadow.cpp) | [shadow.brd](robos/Shadow%20-%20atacante/shadow.brd) |
-| Sonic | Zagueiro | [sonic.cpp](robos/Sonic%20-%20zagueiro/sonic.cpp) | [sonic.brd](robos/Sonic%20-%20zagueiro/sonic.brd) |
+| Knuckles | Goleiro | Equidna crossfiteira, associada a força, impacto e vitória | [knuckles.cpp](robos/Knuckles%20-%20goleiro/knuckles.cpp) e [knuckles.brd](robos/Knuckles%20-%20goleiro/knuckles.brd) |
+| Sonic | Zagueiro | Azulão supersônico, veloz, acelerado e eufórico | [sonic.cpp](robos/Sonic%20-%20zagueiro/sonic.cpp) e [sonic.brd](robos/Sonic%20-%20zagueiro/sonic.brd) |
+| Shadow | Atacante | Emo veloz, frio, sombrio e preciso | [shadow.cpp](robos/Shadow%20-%20atacante/shadow.cpp) e [shadow.brd](robos/Shadow%20-%20atacante/shadow.brd) |
 
-## Trilhas de aula
+## Expressão sonora e comportamento
 
-As aulas estão organizadas por data e tema. Cada pasta dentro de aulas_scripts concentra um README próprio, um firmware de referência e o respectivo diagrama de hardware em formato EAGLE.
+O material do Emerald Strikers FC descreve uma lógica comum para os personagens:
 
-| Aula | Data | Tema | Pasta |
+- cada robô possui três funções centrais de interação: intro, raiva e felicidade;
+- as rotinas sonoras usam o buzzer como mecanismo de expressão emocional;
+- cada som reforça as características do personagem;
+- som, movimento e personalidade ajudam a transformar o robô em um personagem de fato, não apenas em um mecanismo funcional.
+
+## Trilha formativa das aulas
+
+As aulas do repositório mostram a progressão didática que sustenta o projeto. Cada trilha reúne README, firmware e hardware em um mesmo diretório.
+
+| Aula | Data | Foco | Pasta |
 | --- | --- | --- | --- |
-| 01 | 21/03/2026 | Introdução ao ESP32 | [2026-03-21-introducao-esp32](aulas_scripts/2026-03-21-introducao-esp32/README.md) |
-| 02 | 28/03/2026 | Interação com buzzer | [2026-03-28-interacao-buzzer](aulas_scripts/2026-03-28-interacao-buzzer/README.MD) |
-| 03 | 11/04/2026 | Controle de motores com ponte H | [2026-04-11-direcao-robo](aulas_scripts/2026-04-11-direcao-robo/README.md) |
-| 04 | 23/05/2026 | Configuração da comunicação serial | [2026-05-23-configuracao-comunicacao-serial](aulas_scripts/2026-05-23-configuracao-comunicacao-serial/README.md) |
-| 05 | 23/05/2026 | Comunicação serial com controle de LED | [2026-05-23-comunicacao-serial](aulas_scripts/2026-05-23-comunicacao-serial/README.md) |
+| 01 | 21/03/2026 | Introdução à programação embarcada com LED, pinMode, digitalWrite e delay | [2026-03-21-introducao-esp32](aulas_scripts/2026-03-21-introducao-esp32/README.md) |
+| 02 | 28/03/2026 | Interação com buzzer, estrutura sequencial e melodia com tone | [2026-03-28-interacao-buzzer](aulas_scripts/2026-03-28-interacao-buzzer/README.MD) |
+| 03 | 11/04/2026 | Controle de motores, deslocamento do robô e ponte H | [2026-04-11-direcao-robo](aulas_scripts/2026-04-11-direcao-robo/README.md) |
+| 04 | 23/05/2026 | Configuração da comunicação serial e monitoramento | [2026-05-23-configuracao-comunicacao-serial](aulas_scripts/2026-05-23-configuracao-comunicacao-serial/README.md) |
+| 05 | 23/05/2026 | Comunicação serial interativa com controle de LED | [2026-05-23-comunicacao-serial](aulas_scripts/2026-05-23-comunicacao-serial/README.md) |
 
-## Documentação e materiais de apoio
+## Base conceitual do projeto
 
-O diretório docs concentra materiais auxiliares do projeto. A pasta [docs/materiais](docs/materiais) está reservada para insumos de apoio e organização documental complementar.
+Os materiais usados na formação reforçam uma linha clara de aprendizagem:
 
-## Organização dos módulos
+- definição e aplicações de robôs móveis;
+- navegação e direção a partir de motores e ponte H;
+- integração entre entradas digitais, saídas digitais e periféricos;
+- programação estruturada com setup, loop, sequência, seleção e repetição;
+- interação sonora como camada de comportamento embarcado.
 
-### Firmware embarcado
+## Documentação complementar
 
-Os arquivos .cpp presentes em robos e aulas_scripts registram a lógica trabalhada no microcontrolador, cobrindo tanto o comportamento da frota quanto os exemplos didáticos usados em aula.
+- [docs/visao-do-projeto.md](docs/visao-do-projeto.md): síntese pública do contexto técnico e pedagógico do Emerald Strikers FC.
+- [docs/materiais](docs/materiais): área reservada para apoio documental e organização complementar.
 
-### Hardware físico
+## Pessoas por trás do projeto
 
-Os arquivos .brd documentam o desenho das placas eletrônicas do projeto. A proximidade entre firmware e hardware dentro de cada pasta reduz dispersão de contexto e facilita manutenção.
+A lista abaixo reúne perfis públicos confirmados da equipe e das pessoas diretamente associadas à execução técnica mostrada neste repositório.
 
-### Documentação viva
+| Integrante | GitHub |
+| --- | --- |
+| Yohanan Aguilar Amaral | [@yohananaguilar](https://github.com/yohananaguilar) |
+| Augusto Alves da Silva | [@Augusto-Silva-dev](https://github.com/Augusto-Silva-dev) |
+| Elza Koeler de Barros Ribeiro | [@ElzaKoeler](https://github.com/ElzaKoeler) |
+| Huany Gabrielle Gonçalves Machado | [@huanygabriellegm-art](https://github.com/huanygabriellegm-art) |
+| João Vitor Paim Nicacio | [@jp4inbr](https://github.com/jp4inbr) |
+| Maria Júlia Castro Neves | [@mariajneves](https://github.com/mariajneves) |
+| Maria Luisa Pinto Porfírio | [@marialuisa-porfirio](https://github.com/marialuisa-porfirio) |
+| Matheus Santos Damasceno | [@MatheusDama](https://github.com/MatheusDama) |
 
-O README principal e os READMEs locais das aulas atuam como documentação operacional do projeto. Sempre que a arquitetura do repositório for ampliada ou reorganizada, a documentação deve acompanhar a mudança.
+## Diretriz de evolução
 
-## Diretriz de integração
-
-A branch main deve concentrar versões consolidadas do projeto. Mudanças experimentais ou evoluções temáticas podem nascer em outras branches, mas a integração final deve preservar alinhamento entre firmware, hardware e documentação.
-
-## Quem fez acontecer
-
-Este projeto saiu do papel graças à união de muita dedicação, técnica e trabalho em equipe.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/yohananaguilar">
-        <img src="https://github.com/yohananaguilar.png?size=120" width="96" alt="Yohanan Aguilar"><br>
-        <sub><b>Yohanan Aguilar</b></sub><br>
-        <sub>@yohananaguilar</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Augusto-Silva-dev">
-        <img src="https://github.com/Augusto-Silva-dev.png?size=120" width="96" alt="Augusto Silva"><br>
-        <sub><b>Augusto Silva</b></sub><br>
-        <sub>@Augusto-Silva-dev</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/genialine">
-        <img src="https://github.com/genialine.png?size=120" width="96" alt="Aline Rocha"><br>
-        <sub><b>Aline Rocha</b></sub><br>
-        <sub>@genialine</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/huanygabriellegm-art">
-        <img src="https://github.com/huanygabriellegm-art.png?size=120" width="96" alt="huanygabriellegm-art"><br>
-        <sub><b>huanygabriellegm-art</b></sub><br>
-        <sub>@huanygabriellegm-art</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/jp4inbr">
-        <img src="https://github.com/jp4inbr.png?size=120" width="96" alt="jp4inbr"><br>
-        <sub><b>jp4inbr</b></sub><br>
-        <sub>@jp4inbr</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/mariajneves">
-        <img src="https://github.com/mariajneves.png?size=120" width="96" alt="Maria Júlia Neves"><br>
-        <sub><b>Maria Júlia Neves</b></sub><br>
-        <sub>@mariajneves</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/marialuisa-porfirio">
-        <img src="https://github.com/marialuisa-porfirio.png?size=120" width="96" alt="marialuisa_porfirio"><br>
-        <sub><b>marialuisa_porfirio</b></sub><br>
-        <sub>@marialuisa-porfirio</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/MatheusBMorgado">
-        <img src="https://github.com/MatheusBMorgado.png?size=120" width="96" alt="Matheus Barreto Morgado"><br>
-        <sub><b>Matheus Barreto Morgado</b></sub><br>
-        <sub>@MatheusBMorgado</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/MatheusDama">
-        <img src="https://github.com/MatheusDama.png?size=120" width="96" alt="Matheus Santos Damasceno"><br>
-        <sub><b>Matheus Santos Damasceno</b></sub><br>
-        <sub>@MatheusDama</sub>
-      </a>
-    </td>
-  </tr>
-</table>
+A main deve continuar como vitrine técnica do projeto. Novos avanços devem preservar a relação entre documentação, firmware, hardware e contexto pedagógico para que o repositório siga útil tanto para a equipe quanto para quem o visita de fora.
