@@ -128,7 +128,3 @@ A lista abaixo reúne perfis públicos confirmados da equipe e das pessoas diret
 | Maria Júlia Castro Neves | [@mariajneves](https://github.com/mariajneves) |
 | Maria Luisa Pinto Porfírio | [@marialuisa-porfirio](https://github.com/marialuisa-porfirio) |
 | Matheus Santos Damasceno | [@MatheusDama](https://github.com/MatheusDama) |
-
-## Diretriz de evolução
-
-A main deve continuar como vitrine técnica do projeto. Novos avanços devem preservar a relação entre documentação, firmware, hardware e contexto pedagógico para que o repositório siga útil tanto para a equipe quanto para quem o visita de fora.
