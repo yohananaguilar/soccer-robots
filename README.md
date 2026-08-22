@@ -182,5 +182,29 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
+              <td align="center">
+      <a href="https://github.com/MatheusDama">
+        <img src="https://github.com/MatheusDama.png" width="100px;" alt="Foto do Matheus"/><br>
+        <sub>
+          <b>Matheus Dama</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Michael-h-vasquez99">
+        <img src="https://github.com/Michael-h-vasquez99.png" width="100px;" alt="Foto do Michael"/><br>
+        <sub>
+          <b>Michael Huanca</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Mateus-Campos-Cruz">
+        <img src="https://github.com/Mateus-Campos-Cruz.png" width="100px;" alt="Foto do Mateus"/><br>
+        <sub>
+          <b>Mateus Cruz</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
