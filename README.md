@@ -150,7 +150,6 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
-    </tr>
     <td align="center">
       <a href="https://github.com/mariajneves">
         <img src="https://github.com/mariajneves.png" width="100px;" alt="Foto da Maria"/><br>
@@ -159,6 +158,7 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
+   </tr>
    <tr>
     <td align="center">
       <a href="https://github.com/marialuisa-porfirio">
