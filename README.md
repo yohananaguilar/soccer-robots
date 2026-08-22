@@ -114,17 +114,83 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
 - [docs/visao-do-projeto.md](docs/visao-do-projeto.md): síntese pública do contexto técnico e pedagógico do Emerald Strikers FC.
 - [docs/materiais](docs/materiais): área reservada para apoio documental e organização complementar.
 
-## Pessoas por trás do projeto
+## Este projeto saiu do papel graças à união de muita dedicação, técnica e trabalho em equipe.
 
-A lista abaixo reúne perfis públicos confirmados da equipe e das pessoas diretamente associadas à execução técnica mostrada neste repositório.
-
-| Integrante | GitHub |
-| --- | --- |
-| Yohanan Aguilar Amaral | [@yohananaguilar](https://github.com/yohananaguilar) |
-| Augusto Alves da Silva | [@Augusto-Silva-dev](https://github.com/Augusto-Silva-dev) |
-| Elza Koeler de Barros Ribeiro | [@ElzaKoeler](https://github.com/ElzaKoeler) |
-| Huany Gabrielle Gonçalves Machado | [@huanygabriellegm-art](https://github.com/huanygabriellegm-art) |
-| João Vitor Paim Nicacio | [@jp4inbr](https://github.com/jp4inbr) |
-| Maria Júlia Castro Neves | [@mariajneves](https://github.com/mariajneves) |
-| Maria Luisa Pinto Porfírio | [@marialuisa-porfirio](https://github.com/marialuisa-porfirio) |
-| Matheus Santos Damasceno | [@MatheusDama](https://github.com/MatheusDama) |
+<table>
+   <tr>
+     <td align="center">
+      <a href="https://github.com/yohananaguilar">
+        <img src="https://github.com/yohananaguilar.png" width="100px;" alt="Foto do Yohanan"/><br>
+        <sub>
+          <b>Yohanan Aguilar</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ElzaKoeler">
+        <img src="https://github.com/ElzaKoeler.png" width="100px;" alt="Foto da Elza"/><br>
+        <sub>
+          <b>Elza Koeler</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/huanygabriellegm-art">
+        <img src="https://github.com/huanygabriellegm-art.png" width="100px;" alt="Foto da Huany"/><br>
+        <sub>
+          <b>Huany Gabrielle</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jp4inbr">
+        <img src="https://github.com/jp4inbr.png" width="100px;" alt="Foto do João"/><br>
+        <sub>
+          <b>João Vitor</b>
+        </sub>
+      </a>
+    </td>
+    </tr>
+    <td align="center">
+      <a href="https://github.com/mariajneves">
+        <img src="https://github.com/mariajneves.png" width="100px;" alt="Foto da Maria"/><br>
+        <sub>
+          <b>Maria Júlia</b>
+        </sub>
+      </a>
+    </td>
+   <tr>
+    <td align="center">
+      <a href="https://github.com/marialuisa-porfirio">
+        <img src="https://github.com/marialuisa-porfirio.png" width="100px;" alt="Foto da Maria"/><br>
+        <sub>
+          <b>Maria Luisa</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MatheusDama">
+        <img src="https://github.com/MatheusDama.png" width="100px;" alt="Foto do Matheus"/><br>
+        <sub>
+          <b>Matheus Dama</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Michael-h-vasquez99">
+        <img src="https://github.com/Michael-h-vasquez99.png" width="100px;" alt="Foto do Michael"/><br>
+        <sub>
+          <b>Michael Huanca</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Mateus-Campos-Cruz">
+        <img src="https://github.com/Mateus-Campos-Cruz.png" width="100px;" alt="Foto do Mateus"/><br>
+        <sub>
+          <b>Mateus Cruz</b>
+        </sub>
+      </a>
+    </td>
+   </tr>
+</table>
