@@ -127,10 +127,58 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/rodrebas](https://github.com/Augusto-Silva-dev">
-        <img src="https://github.com/rodrebas.png" width="100px;" alt="Foto do Rodrigo"/><br>
+      <a href="https://github.com/Augusto-Silva-dev">
+        <img src="https://github.com/Augusto-Silva-dev.png" width="100px;" alt="Foto do Augusto"/><br>
         <sub>
           <b>Augusto Silva</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ElzaKoeler">
+        <img src="https://github.com/ElzaKoeler.png" width="100px;" alt="Foto da Elza"/><br>
+        <sub>
+          <b>Elza Koeler</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/huanygabriellegm-art">
+        <img src="https://github.com/huanygabriellegm-art.png" width="100px;" alt="Foto da Huany"/><br>
+        <sub>
+          <b>Huany Gabrielle</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jp4inbr">
+        <img src="https://github.com/jp4inbr.png" width="100px;" alt="Foto do João"/><br>
+        <sub>
+          <b>João Vitor</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mariajneves">
+        <img src="https://github.com/mariajneves.png" width="100px;" alt="Foto da Maria"/><br>
+        <sub>
+          <b>Maria Júlia</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/marialuisa-porfirio">
+        <img src="https://github.com/marialuisa-porfirio.png" width="100px;" alt="Foto da Maria"/><br>
+        <sub>
+          <b>Maria Luisa</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MatheusDama">
+        <img src="https://github.com/MatheusDama.png" width="100px;" alt="Foto do Matheus"/><br>
+        <sub>
+          <b>Matheus Dama</b>
         </sub>
       </a>
     </td>
