@@ -117,12 +117,20 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
 ## Este projeto saiu do papel graças à união de muita dedicação, técnica e trabalho em equipe.
 
 <table>
-   <tr>
-     <td align="center">
+  <tr>
+    <td align="center">
       <a href="https://github.com/yohananaguilar">
         <img src="https://github.com/yohananaguilar.png" width="100px;" alt="Foto do Yohanan"/><br>
         <sub>
           <b>Yohanan Aguilar</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Augusto-Silva-dev">
+        <img src="https://github.com/Augusto-Silva-dev.png" width="100px;" alt="Foto do Augusto"/><br>
+        <sub>
+          <b>Augusto Silva</b>
         </sub>
       </a>
     </td>
@@ -151,6 +159,7 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
       </a>
     </td>
     </tr>
+<tr>
     <td align="center">
       <a href="https://github.com/mariajneves">
         <img src="https://github.com/mariajneves.png" width="100px;" alt="Foto da Maria"/><br>
@@ -159,7 +168,7 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
-   <tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/marialuisa-porfirio">
         <img src="https://github.com/marialuisa-porfirio.png" width="100px;" alt="Foto da Maria"/><br>
@@ -192,5 +201,5 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
-   </tr>
+  </tr>
 </table>
