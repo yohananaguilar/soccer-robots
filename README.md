@@ -114,17 +114,25 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
 - [docs/visao-do-projeto.md](docs/visao-do-projeto.md): síntese pública do contexto técnico e pedagógico do Emerald Strikers FC.
 - [docs/materiais](docs/materiais): área reservada para apoio documental e organização complementar.
 
-## Pessoas por trás do projeto
+## Este projeto saiu do papel graças à união de muita dedicação, técnica e trabalho em equipe.
 
-A lista abaixo reúne perfis públicos confirmados da equipe e das pessoas diretamente associadas à execução técnica mostrada neste repositório.
-
-| Integrante | GitHub |
-| --- | --- |
-| Yohanan Aguilar Amaral | [@yohananaguilar](https://github.com/yohananaguilar) |
-| Augusto Alves da Silva | [@Augusto-Silva-dev](https://github.com/Augusto-Silva-dev) |
-| Elza Koeler de Barros Ribeiro | [@ElzaKoeler](https://github.com/ElzaKoeler) |
-| Huany Gabrielle Gonçalves Machado | [@huanygabriellegm-art](https://github.com/huanygabriellegm-art) |
-| João Vitor Paim Nicacio | [@jp4inbr](https://github.com/jp4inbr) |
-| Maria Júlia Castro Neves | [@mariajneves](https://github.com/mariajneves) |
-| Maria Luisa Pinto Porfírio | [@marialuisa-porfirio](https://github.com/marialuisa-porfirio) |
-| Matheus Santos Damasceno | [@MatheusDama](https://github.com/MatheusDama) |
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/yohananaguilar">
+        <img src="https://github.com/yohananaguilar.png" width="100px;" alt="Foto do Yohanan"/><br>
+        <sub>
+          <b>Yohanan Aguilar</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rodrebas](https://github.com/Augusto-Silva-dev">
+        <img src="https://github.com/rodrebas.png" width="100px;" alt="Foto do Rodrigo"/><br>
+        <sub>
+          <b>Augusto Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
