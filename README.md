@@ -158,6 +158,7 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
         </sub>
       </a>
     </td>
+    <br>
     <td align="center">
       <a href="https://github.com/mariajneves">
         <img src="https://github.com/mariajneves.png" width="100px;" alt="Foto da Maria"/><br>
@@ -175,14 +176,6 @@ Os materiais usados na formação reforçam uma linha clara de aprendizagem:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/MatheusDama">
-        <img src="https://github.com/MatheusDama.png" width="100px;" alt="Foto do Matheus"/><br>
-        <sub>
-          <b>Matheus Dama</b>
-        </sub>
-      </a>
-    </td>
-              <td align="center">
       <a href="https://github.com/MatheusDama">
         <img src="https://github.com/MatheusDama.png" width="100px;" alt="Foto do Matheus"/><br>
         <sub>
